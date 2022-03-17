@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Trabajo</title>
+</head>
+<body class="cuerpo">
+    
+    <a href="index.html"><img src="img/diamante.png" class="logo"></a>
+    <div class="encabezado">
+        <input type="text" id="buscar_categoria">
+        <input type="button" value="Buscar" id="buscar">
+        <a href="Postear.html" class="link"> Postea un trabajo</a>
+    </div>
+    
+    <div class="Postear">
+        <h3></h3>
+        <form>
+            <fieldset class="formulario">
+                <legend>Postea un trabajo</legend>
+
+                <div class="categoria">
+                    <label>Categoria:</label>
+                    <select class="categoria_trabajo">
+                        <option value="1">Mecanico</option>
+                        <option value="2">Electicista</option>
+                        <option value="3">Programador</option>
+                    </select>
+                </div>
+
+
+                <div class="tipo">
+                    <label>Tipo:</label>
+                    <label><input type="radio" name="tipo_trabajo" value="tiempo_completo"> Tiempo completo</label>
+                    <label><input type="radio" name="tipo_trabajo" value="medio_tiempo"> Medio tiempo</label>
+                    <label><input type="radio" name="tipo_trabajo" value="Freelancer"> Freelancer</label>
+                </div>
+
+                <div class="compañia">
+                    <label>Compañia: <input type="text" id="compañia_texto"></label>
+                </div>
+
+                
+                <div class="foto">
+                    <label>Logo: <input type="file" id="logo" accept=".pdf,.jpg,.png"></label>
+                </div>
+
+                <div class="url">
+                    <label>Url: <input type="text" id="url_texto"></label>
+                </div>
+
+                <div class="posicion">
+                    <label>Posicion : <input type="text" id="posicion_texto"></label>
+                </div>
+
+                <div class="localizacion">
+                    <label>Localizacion: <input type="text" id="localizacion_texto"></label>
+                </div>
+
+                <div class="descripcion">
+                    <label>Descripcion: <textarea rows="10" cols="40" id="descripcion_texto"></textarea></label>
+                </div> 
+
+                <input type="button" id="enviar" value="Enviar">
+
+                </fieldset>
+
+
+
+        </form>
+    </div>
+
+
+</body>
+</html>

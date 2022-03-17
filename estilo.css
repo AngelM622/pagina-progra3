@@ -1,0 +1,78 @@
+.cuerpo{
+    background-color: lawngreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.encabezado{
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.info{
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.table,
+th,
+td{
+    border: 1px solid black;
+}
+
+.logo{
+    width: 100px;
+    float: left;
+}
+
+.link{
+    background-color: lawngreen;
+    color: black;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    margin-left: 5rem;
+}
+
+.Postear{
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.formulario{
+    width: 75%;
+}
+
+.tipo,
+.categoria,
+.compañia,
+.foto,
+.url,
+.posicion,
+.localizacion,
+.descripcion{
+    padding-top: 2rem;
+}
+
+#enviar{
+    margin-top: 2rem;
+}
+
+label{
+    display: inline-block;
+    width: 80px;  
+}
